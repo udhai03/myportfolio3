@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e8ad0dc7b6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 class="logo">Port<span>folio</span></h1>
+                
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-square-xmark"></i>
+                </ul>
+                <i class="fa-solid fa-bars"></i>
+            </nav>
+            <div class="header-text">
+                <p>Python Full Stack Developer</p>
+                <h1>Hi,I'm <span>Udhayakumar</span><br> From Trichy</h1>
+            </div>
+        </div>
+    </div>
+<!-----------------about-------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-column-1">
+                    <img src="style.jpeg" alt="">
+                </div>
+                <div class="about-column-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I successfully earned my degree from Dhanalakshmi Srinivasan Engineering College. During my academic journey, I also dedicated six months to learning Python and Django, and I applied this knowledge by developing a project in Django. Passionate about crafting efficient and scalable software solutions, I am a skilled Python developer with a keen eye for detail and a commitment to delivering high-quality code.</p>
+                      <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                      </div>
+                      <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>HTML</span><br>Standard markup language for creating Web pages</li>
+                            <li><span>CSS</span><br>A computer language for laying out and structuring web pages</li>
+                            <li><span>JAVASCRIPT</span><br>A scripting language that enables you to create dynamically updating content, 
+                                control multimedia, animate images, and pretty much everything else</li>
+                            <li><span>Python</span><br>An interpreted, object-oriented, high-level programming language with dynamic semantics</li>
+                            <li><span>Django</span><br>A high-level Python web framework that encourages rapid development and clean, pragmatic design.</li>
+                            <li><span>Github</span><br>used for storing, tracking, and collaborating on software projects</li>
+                            <li><span>C and C++</span><br>The C language is a procedural one that provides no support for objects and classes. On the other hand, the 
+                                C++ language is a combination of object-oriented and procedural programming languages.</li>
+                            <li><span>Mysql</span><br>MySQL is a relational database management system</li>
+                            <li><span>Bootstrap</span><br>A free front-end framework, with the purpose of making web development faster and easier.</li>
+                        </ul>
+                      </div>
+                      <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>I'm a Fresher</span><br>Python Full Stack Developer</li>
+                            
+                        </ul>
+                      </div>
+                      <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>10th</span><br>Govt.High School</li>
+                            <li><span>12th</span><br>St.Antony's HR.Sec.School</li>
+                            <li><span>BE(Civil)</span><br>Dhanalakashmi Srinivasan Engineering College</li>
+                        </ul>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--services---------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Front-End</h2>
+                <p>builds the front-end portion of websites and web applications—the part users see and interact with. A front-end developer creates websites and applications using web languages such as HTML, CSS, and JavaScript that allow users to access and interact with the site or app.</p>
+                 <a href="https://www.coursera.org/articles/front-end-developer">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>Back-End</h2>
+                <p>responsibilities include creating, maintaining, testing, and debugging the entire back end of an application or system. This includes the core application logic, databases, data and application integration, API, and other processes taking place behind the scenes.</p>
+                 <a href="https://www.coursera.org/articles/back-end-developer">learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>Full Stack Developer</h2>
+                <p>A full-stack developer helps build and maintain both the front-end and the back-end of a website. Learn about full-stack developer skills, salary, and how you can become one. A full-stack developer is a developer or engineer who can build both the front end and the back end of a website.</p>
+                 <a href="https://www.coursera.org/articles/full-stack-developer">learn more</a>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+<!-------portfolio------>
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="pexels-anna-shvets-3962285.jpg" alt="">
+                <div class="layer">
+                    <h3>E-Commerce Website</h3>
+                    <p>A website that allows people to buy and sell physical goods, services, and digital products over the internet rather than at a brick-and-mortar location</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+
+            </div>
+            <div class="work">
+                <img src="img1.png" alt="">
+                <div class="layer">
+                    <h3>Coffee-Shop</h3>
+                    <p>A website provides your customers with vital information about your coffee shop, and can even act as an online store for beans and merchandise, all while providing educational and entertaining content to get customers engaged with your brand.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+
+            </div>
+            <div class="work">
+                <img src="Capture.PNG" alt="">
+                <div class="layer">
+                    <h3>Portfolio</h3>
+                    <p>A portfolio website is a unique way to showcase your work and let others know about yourself.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+
+            </div>
+            
+
+        </div>
+        <a href="#" class="btn">See more</a>
+<!--------Contact--> 
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>udhai393@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>8778298269</p>
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/udhayakumar03/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/udhai03"><i class="fa-brands fa-square-github"></i></a>
+            </div>
+            <a href="#" class="btn btn2">Download Cv</a>
+        </div>
+            <div class="contact-right">
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your E mail" required>
+                <textarea name="Meassage"   rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+
+            </form>
+            <span id="msg">Hello</span>
+            </div>
+        </div>
+    </div>
+</div>     
+
+        
+    </div>
+    <div class="copyright">
+        <p>copyright @ udhaya <i class="fa-solid fa-heart"></i> portfolio</p>
+
+    </div>
+</div>
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbw0WLVwpWjmuLTOt-oJSoC2gYD7NwVfvQ1-Yz0dT_YLkg89stSAoXxytOo8pAwf2AVB1A/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message send Succesfully! "
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },3000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
